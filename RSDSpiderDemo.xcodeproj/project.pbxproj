@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		349BFAC71F32D10200592149 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 349BFAC61F32D10200592149 /* main.m */; };
+		349BFACA1F32D10200592149 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 349BFAC91F32D10200592149 /* AppDelegate.m */; };
+		349BFAD01F32D10200592149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 349BFACE1F32D10200592149 /* Main.storyboard */; };
+		349BFAD21F32D10200592149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349BFAD11F32D10200592149 /* Assets.xcassets */; };
+		349BFAD51F32D10200592149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 349BFAD31F32D10200592149 /* LaunchScreen.storyboard */; };
+		349BFAE01F32D10200592149 /* RSDSpiderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 349BFADF1F32D10200592149 /* RSDSpiderDemoTests.m */; };
+		349BFAEB1F32D10200592149 /* RSDSpiderDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 349BFAEA1F32D10200592149 /* RSDSpiderDemoUITests.m */; };
+		349BFB0A1F32D23800592149 /* libspidersdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 349BFB091F32D23800592149 /* libspidersdk.a */; };
+		349BFB0D1F32F27D00592149 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 349BFB0C1F32F27D00592149 /* TableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		349BFADC1F32D10200592149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 349BFABA1F32D10200592149 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 349BFAC11F32D10200592149;
+			remoteInfo = RSDSpiderDemo;
+		};
+		349BFAE71F32D10200592149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 349BFABA1F32D10200592149 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 349BFAC11F32D10200592149;
+			remoteInfo = RSDSpiderDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		349BFAC21F32D10200592149 /* RSDSpiderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSDSpiderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		349BFAC61F32D10200592149 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		349BFAC81F32D10200592149 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		349BFAC91F32D10200592149 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		349BFACF1F32D10200592149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		349BFAD11F32D10200592149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		349BFAD41F32D10200592149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		349BFAD61F32D10200592149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		349BFADB1F32D10200592149 /* RSDSpiderDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSDSpiderDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		349BFADF1F32D10200592149 /* RSDSpiderDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSDSpiderDemoTests.m; sourceTree = "<group>"; };
+		349BFAE11F32D10200592149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		349BFAE61F32D10200592149 /* RSDSpiderDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSDSpiderDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		349BFAEA1F32D10200592149 /* RSDSpiderDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSDSpiderDemoUITests.m; sourceTree = "<group>"; };
+		349BFAEC1F32D10200592149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		349BFAFA1F32D1FF00592149 /* dsbridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dsbridge.h; sourceTree = "<group>"; };
+		349BFAFB1F32D1FF00592149 /* DSCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSCircleProgressView.h; sourceTree = "<group>"; };
+		349BFAFC1F32D1FF00592149 /* dSpider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dSpider.h; sourceTree = "<group>"; };
+		349BFAFD1F32D1FF00592149 /* DSpiderDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSpiderDataView.h; sourceTree = "<group>"; };
+		349BFAFE1F32D1FF00592149 /* DSpiderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSpiderViewController.h; sourceTree = "<group>"; };
+		349BFAFF1F32D1FF00592149 /* DSWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSWaveView.h; sourceTree = "<group>"; };
+		349BFB001F32D1FF00592149 /* DUIwebview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUIwebview.h; sourceTree = "<group>"; };
+		349BFB011F32D1FF00592149 /* DWebview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWebview.h; sourceTree = "<group>"; };
+		349BFB021F32D1FF00592149 /* DWKwebview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWKwebview.h; sourceTree = "<group>"; };
+		349BFB031F32D1FF00592149 /* JavaScriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavaScriptBridge.h; sourceTree = "<group>"; };
+		349BFB041F32D1FF00592149 /* JSBUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBUtil.h; sourceTree = "<group>"; };
+		349BFB051F32D1FF00592149 /* JSBWebEventDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBWebEventDelegate.h; sourceTree = "<group>"; };
+		349BFB061F32D1FF00592149 /* spidersdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spidersdk.h; sourceTree = "<group>"; };
+		349BFB071F32D1FF00592149 /* SpiderUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpiderUtil.h; sourceTree = "<group>"; };
+		349BFB081F32D1FF00592149 /* SpiderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpiderView.h; sourceTree = "<group>"; };
+		349BFB091F32D23800592149 /* libspidersdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libspidersdk.a; sourceTree = "<group>"; };
+		349BFB0B1F32F27D00592149 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		349BFB0C1F32F27D00592149 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		349BFABF1F32D10200592149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349BFB0A1F32D23800592149 /* libspidersdk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349BFAD81F32D10200592149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349BFAE31F32D10200592149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		349BFAB91F32D10200592149 = {
+			isa = PBXGroup;
+			children = (
+				349BFAC41F32D10200592149 /* RSDSpiderDemo */,
+				349BFADE1F32D10200592149 /* RSDSpiderDemoTests */,
+				349BFAE91F32D10200592149 /* RSDSpiderDemoUITests */,
+				349BFAC31F32D10200592149 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		349BFAC31F32D10200592149 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				349BFAC21F32D10200592149 /* RSDSpiderDemo.app */,
+				349BFADB1F32D10200592149 /* RSDSpiderDemoTests.xctest */,
+				349BFAE61F32D10200592149 /* RSDSpiderDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		349BFAC41F32D10200592149 /* RSDSpiderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				349BFB091F32D23800592149 /* libspidersdk.a */,
+				349BFAF81F32D1FF00592149 /* include */,
+				349BFAC81F32D10200592149 /* AppDelegate.h */,
+				349BFAC91F32D10200592149 /* AppDelegate.m */,
+				349BFB0B1F32F27D00592149 /* TableViewController.h */,
+				349BFB0C1F32F27D00592149 /* TableViewController.m */,
+				349BFACE1F32D10200592149 /* Main.storyboard */,
+				349BFAD11F32D10200592149 /* Assets.xcassets */,
+				349BFAD31F32D10200592149 /* LaunchScreen.storyboard */,
+				349BFAD61F32D10200592149 /* Info.plist */,
+				349BFAC51F32D10200592149 /* Supporting Files */,
+			);
+			path = RSDSpiderDemo;
+			sourceTree = "<group>";
+		};
+		349BFAC51F32D10200592149 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				349BFAC61F32D10200592149 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		349BFADE1F32D10200592149 /* RSDSpiderDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				349BFADF1F32D10200592149 /* RSDSpiderDemoTests.m */,
+				349BFAE11F32D10200592149 /* Info.plist */,
+			);
+			path = RSDSpiderDemoTests;
+			sourceTree = "<group>";
+		};
+		349BFAE91F32D10200592149 /* RSDSpiderDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				349BFAEA1F32D10200592149 /* RSDSpiderDemoUITests.m */,
+				349BFAEC1F32D10200592149 /* Info.plist */,
+			);
+			path = RSDSpiderDemoUITests;
+			sourceTree = "<group>";
+		};
+		349BFAF81F32D1FF00592149 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				349BFAF91F32D1FF00592149 /* spidersdk */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		349BFAF91F32D1FF00592149 /* spidersdk */ = {
+			isa = PBXGroup;
+			children = (
+				349BFAFA1F32D1FF00592149 /* dsbridge.h */,
+				349BFAFB1F32D1FF00592149 /* DSCircleProgressView.h */,
+				349BFAFC1F32D1FF00592149 /* dSpider.h */,
+				349BFAFD1F32D1FF00592149 /* DSpiderDataView.h */,
+				349BFAFE1F32D1FF00592149 /* DSpiderViewController.h */,
+				349BFAFF1F32D1FF00592149 /* DSWaveView.h */,
+				349BFB001F32D1FF00592149 /* DUIwebview.h */,
+				349BFB011F32D1FF00592149 /* DWebview.h */,
+				349BFB021F32D1FF00592149 /* DWKwebview.h */,
+				349BFB031F32D1FF00592149 /* JavaScriptBridge.h */,
+				349BFB041F32D1FF00592149 /* JSBUtil.h */,
+				349BFB051F32D1FF00592149 /* JSBWebEventDelegate.h */,
+				349BFB061F32D1FF00592149 /* spidersdk.h */,
+				349BFB071F32D1FF00592149 /* SpiderUtil.h */,
+				349BFB081F32D1FF00592149 /* SpiderView.h */,
+			);
+			path = spidersdk;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		349BFAC11F32D10200592149 /* RSDSpiderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349BFAEF1F32D10200592149 /* Build configuration list for PBXNativeTarget "RSDSpiderDemo" */;
+			buildPhases = (
+				349BFABE1F32D10200592149 /* Sources */,
+				349BFABF1F32D10200592149 /* Frameworks */,
+				349BFAC01F32D10200592149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSDSpiderDemo;
+			productName = RSDSpiderDemo;
+			productReference = 349BFAC21F32D10200592149 /* RSDSpiderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		349BFADA1F32D10200592149 /* RSDSpiderDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349BFAF21F32D10200592149 /* Build configuration list for PBXNativeTarget "RSDSpiderDemoTests" */;
+			buildPhases = (
+				349BFAD71F32D10200592149 /* Sources */,
+				349BFAD81F32D10200592149 /* Frameworks */,
+				349BFAD91F32D10200592149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				349BFADD1F32D10200592149 /* PBXTargetDependency */,
+			);
+			name = RSDSpiderDemoTests;
+			productName = RSDSpiderDemoTests;
+			productReference = 349BFADB1F32D10200592149 /* RSDSpiderDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		349BFAE51F32D10200592149 /* RSDSpiderDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349BFAF51F32D10200592149 /* Build configuration list for PBXNativeTarget "RSDSpiderDemoUITests" */;
+			buildPhases = (
+				349BFAE21F32D10200592149 /* Sources */,
+				349BFAE31F32D10200592149 /* Frameworks */,
+				349BFAE41F32D10200592149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				349BFAE81F32D10200592149 /* PBXTargetDependency */,
+			);
+			name = RSDSpiderDemoUITests;
+			productName = RSDSpiderDemoUITests;
+			productReference = 349BFAE61F32D10200592149 /* RSDSpiderDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		349BFABA1F32D10200592149 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = StevenXie;
+				TargetAttributes = {
+					349BFAC11F32D10200592149 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7QT42R489Z;
+						ProvisioningStyle = Automatic;
+					};
+					349BFADA1F32D10200592149 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 349BFAC11F32D10200592149;
+					};
+					349BFAE51F32D10200592149 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 349BFAC11F32D10200592149;
+					};
+				};
+			};
+			buildConfigurationList = 349BFABD1F32D10200592149 /* Build configuration list for PBXProject "RSDSpiderDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 349BFAB91F32D10200592149;
+			productRefGroup = 349BFAC31F32D10200592149 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				349BFAC11F32D10200592149 /* RSDSpiderDemo */,
+				349BFADA1F32D10200592149 /* RSDSpiderDemoTests */,
+				349BFAE51F32D10200592149 /* RSDSpiderDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		349BFAC01F32D10200592149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349BFAD51F32D10200592149 /* LaunchScreen.storyboard in Resources */,
+				349BFAD21F32D10200592149 /* Assets.xcassets in Resources */,
+				349BFAD01F32D10200592149 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349BFAD91F32D10200592149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349BFAE41F32D10200592149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		349BFABE1F32D10200592149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349BFACA1F32D10200592149 /* AppDelegate.m in Sources */,
+				349BFAC71F32D10200592149 /* main.m in Sources */,
+				349BFB0D1F32F27D00592149 /* TableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349BFAD71F32D10200592149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349BFAE01F32D10200592149 /* RSDSpiderDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349BFAE21F32D10200592149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349BFAEB1F32D10200592149 /* RSDSpiderDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		349BFADD1F32D10200592149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 349BFAC11F32D10200592149 /* RSDSpiderDemo */;
+			targetProxy = 349BFADC1F32D10200592149 /* PBXContainerItemProxy */;
+		};
+		349BFAE81F32D10200592149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 349BFAC11F32D10200592149 /* RSDSpiderDemo */;
+			targetProxy = 349BFAE71F32D10200592149 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		349BFACE1F32D10200592149 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				349BFACF1F32D10200592149 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		349BFAD31F32D10200592149 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				349BFAD41F32D10200592149 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		349BFAED1F32D10200592149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		349BFAEE1F32D10200592149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		349BFAF01F32D10200592149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = RSDSpiderDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RSDSpiderDemo",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSDSpiderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		349BFAF11F32D10200592149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = RSDSpiderDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RSDSpiderDemo",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSDSpiderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		349BFAF31F32D10200592149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSDSpiderDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSDSpiderDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSDSpiderDemo.app/RSDSpiderDemo";
+			};
+			name = Debug;
+		};
+		349BFAF41F32D10200592149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSDSpiderDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSDSpiderDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSDSpiderDemo.app/RSDSpiderDemo";
+			};
+			name = Release;
+		};
+		349BFAF61F32D10200592149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSDSpiderDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSDSpiderDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSDSpiderDemo;
+			};
+			name = Debug;
+		};
+		349BFAF71F32D10200592149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSDSpiderDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSDSpiderDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSDSpiderDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		349BFABD1F32D10200592149 /* Build configuration list for PBXProject "RSDSpiderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349BFAED1F32D10200592149 /* Debug */,
+				349BFAEE1F32D10200592149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		349BFAEF1F32D10200592149 /* Build configuration list for PBXNativeTarget "RSDSpiderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349BFAF01F32D10200592149 /* Debug */,
+				349BFAF11F32D10200592149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		349BFAF21F32D10200592149 /* Build configuration list for PBXNativeTarget "RSDSpiderDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349BFAF31F32D10200592149 /* Debug */,
+				349BFAF41F32D10200592149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		349BFAF51F32D10200592149 /* Build configuration list for PBXNativeTarget "RSDSpiderDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349BFAF61F32D10200592149 /* Debug */,
+				349BFAF71F32D10200592149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 349BFABA1F32D10200592149 /* Project object */;
+}
